@@ -55,5 +55,33 @@ if(human === "Sissors" && comp === "Paper"){
     console.log("It's a tie!");
 } 
 
+let humanChoice = "spock";
+let computerChoice = "scissors";
+
+function compareChoices(humanChoice, computerChoice) {
+    // spock smashes scissors,
+    if ((humanChoice === "spock" && computerChoice == "scissor")
+        // (humanChoice === "scissors" && computerChoice == "spock")) {
+        if (humanChoice === "spock") {
+        console.log("spock smashes scissors, You win!");
+    } else {
+        console.log("spock smashes scissors, Computer wins!");
+    }
+}
+compareChoices(humanChoice, computerchoice);
 
 
+let humanChoice = "scissors";
+let computerChoice = "lizard";
+
+function compareChoices(humanChoice, computerChoice) {
+    // scissors decapotates lizard,
+    if ((humanChoice === "scissors" && computerChoice == "lizard")
+        // (humanChoice === "lizard" && computerChoice == "scissors")) {
+        if (humanChoice === "scissors") {
+        console.log("scissors decapotates lizard, You win!");
+    } else {
+        console.log("scissors decapotates lizard, Computer wins!");
+    }
+}
+compareChoices(humanChoice, computerchoice);
